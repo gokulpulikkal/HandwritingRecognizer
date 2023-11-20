@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B3D91F22B074F79001F246F /* SegmentationModel.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 4B3D91F12B074F79001F246F /* SegmentationModel.mlpackage */; };
 		4BAEA9972B05DB9E00D7976F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAEA9962B05DB9E00D7976F /* AppDelegate.swift */; };
 		4BAEA9992B05DB9E00D7976F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAEA9982B05DB9E00D7976F /* SceneDelegate.swift */; };
 		4BAEA99B2B05DB9E00D7976F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAEA99A2B05DB9E00D7976F /* ViewController.swift */; };
@@ -14,9 +15,11 @@
 		4BAEA9A02B05DBA000D7976F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BAEA99F2B05DBA000D7976F /* Assets.xcassets */; };
 		4BAEA9A32B05DBA000D7976F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BAEA9A12B05DBA000D7976F /* LaunchScreen.storyboard */; };
 		4BAEA9AB2B05EB3900D7976F /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAEA9AA2B05EB3900D7976F /* DrawView.swift */; };
+		4BC9DB5F2B0C0F3900726C95 /* MNISTClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4BC9DB5E2B0C0F3900726C95 /* MNISTClassifier.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B3D91F12B074F79001F246F /* SegmentationModel.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = SegmentationModel.mlpackage; sourceTree = "<group>"; };
 		4BAEA9932B05DB9E00D7976F /* MNISTRecogniser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MNISTRecogniser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BAEA9962B05DB9E00D7976F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4BAEA9982B05DB9E00D7976F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +29,7 @@
 		4BAEA9A22B05DBA000D7976F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4BAEA9A42B05DBA000D7976F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4BAEA9AA2B05EB3900D7976F /* DrawView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawView.swift; sourceTree = "<group>"; };
+		4BC9DB5E2B0C0F3900726C95 /* MNISTClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MNISTClassifier.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +65,9 @@
 				4BAEA9962B05DB9E00D7976F /* AppDelegate.swift */,
 				4BAEA9982B05DB9E00D7976F /* SceneDelegate.swift */,
 				4BAEA99A2B05DB9E00D7976F /* ViewController.swift */,
+				4BC9DB5E2B0C0F3900726C95 /* MNISTClassifier.mlmodel */,
 				4BAEA9AA2B05EB3900D7976F /* DrawView.swift */,
+				4B3D91F12B074F79001F246F /* SegmentationModel.mlpackage */,
 				4BAEA99C2B05DB9E00D7976F /* Main.storyboard */,
 				4BAEA99F2B05DBA000D7976F /* Assets.xcassets */,
 				4BAEA9A12B05DBA000D7976F /* LaunchScreen.storyboard */,
@@ -145,6 +151,8 @@
 				4BAEA9972B05DB9E00D7976F /* AppDelegate.swift in Sources */,
 				4BAEA9AB2B05EB3900D7976F /* DrawView.swift in Sources */,
 				4BAEA9992B05DB9E00D7976F /* SceneDelegate.swift in Sources */,
+				4B3D91F22B074F79001F246F /* SegmentationModel.mlpackage in Sources */,
+				4BC9DB5F2B0C0F3900726C95 /* MNISTClassifier.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

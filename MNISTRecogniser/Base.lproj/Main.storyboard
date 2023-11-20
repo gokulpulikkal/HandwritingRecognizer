@@ -35,12 +35,20 @@
                                     <constraint firstAttribute="height" constant="328" id="8y8-j4-FKr"/>
                                 </constraints>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="svk-Ul-YRz">
+                                <rect key="frame" x="196.66666666666666" y="614" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="D3e-HE-7uA" secondAttribute="trailing" constant="10" id="JUp-qW-v8G"/>
                             <constraint firstItem="D3e-HE-7uA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="TAP-tb-0PK"/>
+                            <constraint firstItem="svk-Ul-YRz" firstAttribute="top" secondItem="D3e-HE-7uA" secondAttribute="bottom" constant="207" id="Ygy-ld-0JW"/>
+                            <constraint firstItem="svk-Ul-YRz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aH6-sz-az3"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="22F-vo-mCb" secondAttribute="trailing" constant="10" id="drR-OZ-qvZ"/>
                             <constraint firstItem="D3e-HE-7uA" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="pmr-2b-odu"/>
                             <constraint firstItem="22F-vo-mCb" firstAttribute="top" secondItem="D3e-HE-7uA" secondAttribute="bottom" constant="20" id="uGh-eF-pPX"/>
@@ -49,6 +57,7 @@
                     <connections>
                         <outlet property="clearButton" destination="22F-vo-mCb" id="S9C-2Z-B28"/>
                         <outlet property="drawView" destination="D3e-HE-7uA" id="Dta-bZ-bFA"/>
+                        <outlet property="predictionLabel" destination="svk-Ul-YRz" id="SNc-Cl-Zh0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
