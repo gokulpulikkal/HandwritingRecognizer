@@ -24,14 +24,14 @@ This iOS app allows users to draw characters and numbers on a drawing view, and 
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/your-username/emnist-recognizer-ios.git
+    git clone https://github.com/gokulpulikkal/HandwritingRecognizer.git
     ```
 
 2. **Open the project in Xcode:**
 
     ```bash
-    cd emnist-recognizer-ios
-    open EMNISTRecognizer.xcodeproj
+    cd HandwritingRecognizer
+    open MNISTRecogniser.xcodeproj
     ```
 
 3. **Build and run the app on a simulator or a physical device.**
