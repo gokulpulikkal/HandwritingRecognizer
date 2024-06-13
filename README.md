@@ -3,7 +3,7 @@
 ## Overview
 This iOS app allows users to draw characters and numbers on a drawing view, and a machine learning model will recognize the input, displaying the results just below the drawing area. The underlying model was created as part of the Intro to Machine Learning course and converted from PyTorch to CoreML using coremltools.
 <p align="center">
-    <img src="https://github.com/gokulpulikkal/HandwritingRecognizer/assets/52960334/23db2b3e-e165-4deb-900f-0f230b05a3f7" alt="" width="AUTO" height="400">
+    <img src="https://github.com/gokulpulikkal/HandwritingRecognizer/assets/52960334/23db2b3e-e165-4deb-900f-0f230b05a3f7" alt="" width="200" height="400">
 </p>
 
 ## Features
